@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <style>
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed, 
+      figure, figcaption, footer, header, hgroup, 
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      html, body, iframe {
+        height: 100%;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure, 
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+      q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      (function(e,t){"use strict";function u(){s&&r.removeChild(s),s=n.createElement("iframe"),s.setAttribute("width","100%"),s.setAttribute("height","100%"),r.appendChild(s)}function f(e){a=e}function l(e){var t=a;e.write("<" + "script>");for(var n=0;n<t.length;n++)e.write("window."+t[n]+" = function(){};");e.write("</" + "script>")}function c(e){u(),s.addEventListener("load",function(){h("load",null)},!1);var t=s.contentWindow.document;t.open(),l(t),t.write(e),t.close()}function h(t,n){var r=i.stringify({data:n,type:t,secret:o});e.parent.postMessage(r,"*")}function p(e,t){var n=s.contentWindow.Error;if(e&&e instanceof Error||e instanceof n)e={message:e.message,stack:e.stack,type:e.type,arguments:e.arguments,__errorType__:String(e.constructor).trim().match(/^function ([^\(\s]+)/)[1]};typeof t=="function"&&(t=String(t)),h("evaljs",{error:e,result:t})}function d(e){var t=null;try{t=s.contentWindow.eval(e)}catch(n){throw p(n,null),n}p(null,t)}function v(){h("html",s.contentWindow.document.documentElement.outerHTML)}window.__webMiniPreview=!0;var n=e.document,r=n.querySelector("body"),i=e.JSON,s,o,a=[],m={load:c,evaljs:d,html:v,disableFunctions:f};e.addEventListener("message",function(e){var t;try{t=i.parse(e.data)}catch(n){return}var r=t.type,s=t.data;if(!t.secret)return;if(!o&&t.type==="handshake")o=t.secret;else{if(t.secret!==o)return;m[r](s)}},!1),e.stuffEmit=function(e,t){h(e,t)}})(window);
+    </script>
+  
+
+<iframe height="100%" width="100%"></iframe></body></html>
